@@ -1,0 +1,65 @@
+
+
+#about{ 
+    text-align: center; 
+
+}
+
+
+header {
+
+    text-align: center;
+    background: linear-gradient(to top, #a5cdcc, #a2c8e2);
+    color: rgb(24, 25, 19);
+}
+
+footer {
+    text-align: center;
+    background: linear-gradient(to top, #a5cdcc, #a2c8e2);
+    color: rgb(12, 10, 10);
+}
+
+
+
+h1 {
+    font-size: 3em;
+    font-style: oblique;
+    margin: 1.5em 0;
+}
+h2 {
+    font-size: 2em;
+    font-style: oblique;
+    margin: 1.5em 0;
+}
+
+
+body {
+    background: linear-gradient(to top, #068e8c, #a2c8e2);
+    margin: 0;
+    padding: 0;
+    font-style: oblique;
+}
+
+
+
+
+nav ul {
+    list-style: none;       /* removes numbers/bullets */
+    margin: 0;
+    padding: 0;
+    display: flex;          /* makes them horizontal */
+    justify-content: center;/* centers them */
+    gap: 20px;              /* spacing between items */
+}
+
+nav ul li a {
+    text-decoration: none;  /* remove underline */
+    color: black;           /* link color */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: darkblue;        /* hover effect */
+}
+
+

@@ -1,0 +1,19 @@
+body{
+    background-color: #8a74ab;
+    font-size: 24px;
+    font-style: oblique;
+}
+
+nav ul li{
+  display:inline-block;  
+}
+.project-item,
+.skill{
+    display:inline-block;
+  width:320px;           
+  margin:12px;            
+  vertical-align:top; 
+}
+
+
+img, video{ max-width:100%; height:auto; }
